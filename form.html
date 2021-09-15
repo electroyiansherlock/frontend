@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            HTML Form!!
+        </title>
+
+
+            <link type = "text/css" href="project.css" rel = "stylesheet">
+    </head>
+
+
+    <body>
+
+        <h1>Welcome to this page!!</h1>
+
+    
+        <fieldset>
+            <legend>Profile info</legend>
+
+            <form action = "form.html" method = "POST">
+            
+            
+            Name : <input type = "text" name = "Name" placeholder="Enter your name"> <br>
+            Email : <input type = "text" name = "Email" placeholder="Enter your Email"> <br>
+            Password : <input type = "password" name = "password" placeholder="Enter the password"> <br>
+            
+            <br>
+
+            <p>Gender : </p>
+            <input type = "radio" name = "Gender">Male <br>
+            <input type = "radio" name = "Gender">Female <br>
+
+            <br>
+
+        <!-- while selecting the type of the input as CHECKBOX then it will return 
+            a list of inputs which will be returned-->
+
+            <p id = "city">Type of Computer : </p>
+            <input type = "checkbox" name = "type1">I have a laptop Computer <br>
+            <input type = "checkbox" name = "type1">I have a Desktop Computer <br>
+
+            <br>
+            
+            <h4>From which city you belongs to ??</h4>
+
+            <select id = "city" name = "city">
+                <option type = "text">Nasirabad</option>
+                <option type = "text">Bihpuria</option>
+                <option type = "text">Ajmer</option>
+                <option type = "text">Jaipur</option>
+            </select>
+            <br>
+            <br>
+            
+            Description : <br>
+            <textarea rows="4" cols = "50">
+            </textarea>
+
+            <br><br>
+
+            Contact us for &copy; issues at <strong>8505065880</strong>
+            
+            <br>
+            <br>
+
+            <input class = "modify" type = "submit" value = "Save My Info!!"> 
+            <input class = "modify" type = "submit" value = "Reset Entries!!">
+
+        </fieldset> 
+
+            </form>
+
+        <div>This is a block</div>
+        <p>This is a paragraph</p>
+
+    </body>
+</html>
